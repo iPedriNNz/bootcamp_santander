@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align-self</title>
+    <style>
+        .flex-container{
+            display: flex;
+            max-width: 350px;
+            border: 1px solid black;
+            margin-bottom: 5px;
+            align-items: center;
+        }
+
+        .item{
+            text-align: center;
+            background-color: coral;
+            margin: 5px;
+            color: white;
+            font-size: 24px;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .flex-start{
+            align-self: flex-start;
+        }
+
+        .flex-end{
+            align-self: flex-end;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>auto</p>
+    <div class="flex-container">
+        <div class="item">AAA</div>
+        <div class="item">123</div>
+        <div class="item">ASOJDAJOD ASODIJOIASA ASIJSD</div>
+        <div class="item">item 4</div>
+    </div>
+
+    <p>center</p>
+    <div class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item center">123</div>
+        <div class="item center">ASOJDAJOD ASODIJOIASA ASIJSD</div>
+        <div class="item center">item 4</div>
+    </div>
+
+    <p>stretch</p>
+    <div class="flex-container">
+        <div class="item stretch">AAA</div>
+        <div class="item stretch">123</div>
+        <div class="item stretch">ASOJDAJOD ASODIJOIASA ASIJSD</div>
+        <div class="item stretch">item 4</div>
+    </div>
+
+    <p>baseline</p>
+    <div class="flex-container">
+        <div class="item baseline">AAA</div>
+        <div class="item baseline">123</div>
+        <div class="item baseline">ASOJDAJOD ASODIJOIASA ASIJSD</div>
+        <div class="item baseline">item 4</div>
+    </div>
+
+    <p>flex-start</p>
+    <div class="flex-container">
+        <div class="item flex-start">AAA</div>
+        <div class="item flex-start">123</div>
+        <div class="item flex-start">ASOJDAJOD ASODIJOIASA ASIJSD</div>
+        <div class="item flex-start">item 4</div>
+    </div>
+
+    <p>flex-end</p>
+    <div class="flex-container">
+        <div class="item flex-end">AAA</div>
+        <div class="item flex-end">123</div>
+        <div class="item flex-end">ASOJDAJOD ASODIJOIASA ASIJSD</div>
+        <div class="item flex-end">item 4</div>
+    </div>
+    
+    <p>mix</p>
+    <div class="flex-container">
+        <div class="item baseline">AAA</div>
+        <div class="item stretch">123</div>
+        <div class="item flex-end">ASOJDAJOD ASODIJOIASA ASIJSD</div>
+        <div class="item center">item 4</div>
+    </div>
+</body>
+</html>

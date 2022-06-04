@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align items</title>
+    <style>
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+
+        .center{
+            align-items: center;
+        }
+
+        .strectch{
+            align-items: stretch;
+        }
+
+        .flex-start{
+            align-items: flex-start;
+        }
+
+        .flex-end{
+            align-items: flex-end;
+        }
+
+        .baseline{
+            align-items: baseline;
+        }
+
+        .column{
+            flex-direction: column;
+        }
+
+        .central{
+            height: 300px;
+            justify-content: center;
+        }
+
+        .central .item{
+            flex: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>row</h1>
+
+    <p>center</p>
+    <section class="container center flex">
+        <div class="item">Item 1</div>
+        <div class="item">Só testando gente, só testando</div>
+        <div class="item">Item 2</div>
+    </section>
+
+    <p>strectch</p>
+    <section class="container strectch flex">
+        <div class="item">Item 1</div>
+        <div class="item">Só testando gente, só testando</div>
+        <div class="item">Item 2, já falei que to testando oxi</div>
+    </section>
+
+    <p>flex-start</p>
+    <section class="container flex-start flex">
+        <div class="item">Item 1</div>
+        <div class="item">Só testando gente, só testando</div>
+        <div class="item">Item 2, já sabe né</div>
+    </section>
+
+    <p>flex-end</p>
+    <section class="container flex-end flex">
+        <div class="item">Item 1</div>
+        <div class="item">Só testando gente, só testando</div>
+        <div class="item">Item 2, ainda no teste</div>
+    </section>
+
+    
+    <p>baseline</p>
+    <section class="container baseline flex">
+        <div class="item">E sim, eu lembro dos outros itens</div>
+        <div class="item">Só testando gente, só testando</div>
+        <div class="item">Item 2, adivinha...</div>
+    </section>
+
+    <h1>column</h1>
+
+    <p>flex-start</p>
+    <section class="container flex-start column">
+        <div class="item">Item 1</div>
+        <div class="item">Só testando gente, só testando</div>
+        <div class="item">Item 2, cansei ta ?</div>
+    </section>
+
+    <p>flex-end</p>
+    <section class="container flex-end column">
+        <div class="item">Item 1</div>
+        <div class="item">Só testando gente, só testando</div>
+        <div class="item">Item 2, 123 testando 123</div>
+    </section>
+
+    <p>center</p>
+    <section class="container center column">
+        <div class="item">Item 1</div>
+        <div class="item">Só testando gente, só testando</div>
+        <div class="item">Item 2, é que eu só sei contar até o 3</div>
+    </section>
+
+    <p>baseline</p>
+    <section class="container baseline column">
+        <div class="item">Item 1</div>
+        <div class="item">Só testando gente, só testando</div>
+        <div class="item">Pica-pau: então lá vai o 5</div>
+    </section>
+
+    <p>Alinhamento central</p>
+    <section class="container central center">
+        <div class="item">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+    </section>
+</body>
+</html>
