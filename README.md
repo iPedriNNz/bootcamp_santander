@@ -14,3 +14,11 @@ Repositório criado para os desafios do Bootcamp Santander DIO
 <img alt="Pedro JS" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg">
 <img alt="Pedro HTML5" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg">
 <img alt="Pedro CSS3" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg">
+
+##
+  
+  
+<a href="https://github.com/iPedriNNz/todo_list_js"> • To-do list com JavaScript <br><br>
+<img alt="Pedro JS" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg">
+<img alt="Pedro HTML5" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg">
+<img alt="Pedro CSS3" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg">
